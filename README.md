@@ -9,7 +9,7 @@ TLDR; for the quick and dirty setup, install your dependencies:
 pip install virtualenv
 virtualenv venv; source venv/bin/activate
 pip install -r requirements.txt
-npm install -g webpack; npm install
+npm install -g webpack@1.15.0; npm install
 ```
 
 Then in two separate tabs run `python app.py` and `webpack --watch`. Make edits to `js/Hello.js` and `app.py` to edit the frontend and backend, respectively.
